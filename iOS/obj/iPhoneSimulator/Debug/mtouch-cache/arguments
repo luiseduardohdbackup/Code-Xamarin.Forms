@@ -1,0 +1,39 @@
+# Version: 7.2.4.4 (5485ac2)
+# [first argument, ignore] # /Users/jason/projects/KidsEatFree/iOS/bin/iPhoneSimulator/Debug/mtouch.exe
+/Developer/MonoTouch/usr/bin/mtouch \
+	-sdkroot \
+	/Applications/Xcode.app/Contents/Developer \
+	--cache \
+	/Users/jason/projects/KidsEatFree/iOS/obj/iPhoneSimulator/Debug/mtouch-cache \
+	--nomanifest \
+	--nosign \
+	-sim \
+	/Users/jason/projects/KidsEatFree/iOS/bin/iPhoneSimulator/Debug/KidsEatFreeiOS.app \
+	-r \
+	/Users/jason/projects/KidsEatFree/KidsEatFree/bin/Debug/KidsEatFree.dll \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/System.dll \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/System.Xml.dll \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/System.Core.dll \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/monotouch.dll \
+	-r \
+	/Users/jason/projects/KidsEatFree/packages/Xamarin.Forms.Maps.1.1.1.6206/lib/MonoTouch10/Xamarin.Forms.Maps.iOS.dll \
+	-r \
+	/Users/jason/projects/KidsEatFree/packages/Xamarin.Forms.Maps.1.1.1.6206/lib/MonoTouch10/Xamarin.Forms.Maps.dll \
+	-r \
+	/Users/jason/projects/KidsEatFree/packages/Xamarin.Forms.1.1.1.6206/lib/MonoTouch10/Xamarin.Forms.Platform.iOS.dll \
+	-r \
+	/Users/jason/projects/KidsEatFree/packages/Xamarin.Forms.1.1.1.6206/lib/MonoTouch10/Xamarin.Forms.Core.dll \
+	-r \
+	/Users/jason/projects/KidsEatFree/packages/Xamarin.Forms.1.1.1.6206/lib/MonoTouch10/Xamarin.Forms.Xaml.dll \
+	-debug \
+	-nolink \
+	-sdk \
+	7.1 \
+	-targetver \
+	7.0 \
+	--abi=i386 \
+	/Users/jason/projects/KidsEatFree/iOS/bin/iPhoneSimulator/Debug/KidsEatFreeiOS.exe \
